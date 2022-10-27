@@ -1,38 +1,166 @@
-.App {
+:root {
+  --primary-color: #815656;
+  --secondary-color:#f99500;
+  --light-color: #e3d5d5;
+  --dark-color: #333;
+  --max-width:1100px;
+  /* height: 100%; */
+}
+
+.category {
+  --nutrion-color:#f99500;
+  --equipment-color: #a66bbe;
+  --health-color: #009cff;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  line-height: 1.5;
+  background: var(--light-color);
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  width: 100%;
+}
+h1,h2,h3,h4,h5,h6 {
+  font-family: 'Staatliches';
+  margin-bottom: .55rem;
+  line-height: 1.3;
+}
+
+.l-heading {
+  font-size: 3rem;
+}
+
+.container {
+  max-width: var(--max-width);
+  margin: auto;
+  padding: 2rem;
+  overflow: hidden;
+  
+}
+
+.category {
+  display: inline-block;
+  color: white;
+  font-size: 0.55rem;
+  text-transform: uppercase;
+  padding: 0.3rem 0.6rem;
+  border-radius: 15px;
+  margin-bottom: 0.3rem;
+}
+
+.btn {
+  display: inline-block;
+  border: none;
+  /* background: var(--dark-color); */
+  color: white;
+  padding: 0.5rem 1.5rem;
+  margin-top: 0.5rem;
+}
+
+.btn-light { background: var(--light-color);}
+.btn-primary { background: var(--primary-color);}
+.btn-dark { background: var(--dark-color);}
+
+.btn-block{
+  display: block;
+  width: 100%;
   text-align: center;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.btn:hover {
+  opacity: 0.9;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.card {
+  background: #f8f6f6;
+  padding: 1rem;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.card-free{
+  background: #f8f6f6;
+  padding: 1rem;
+}
+
+
+.card:hover{
+  background: rgb(250, 228, 232);
+}
+
+.bg-dark {
+  background: #333;
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.bg-primary {
+  background: var(--primary-color);
+  color: white;
+}
+.bg-secondary {
+  background: var(--secondary-color);
+  color: white;
+}
+.bg-light{
+  background: var(--light-color);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.bg-dark a,
+.bg-dark h1,
+.bg-dark h2,
+.bg-dark h3,
+.bg-dark h4,
+.bg-dark h5,
+.bg-dark h6,
+.bg-primary h1,
+.bg-primary h2,
+.bg-primary h3,
+.bg-primary a,
+.bg.secondary h1,
+.bg.secondary h2,
+.bg.secondary h3,
+.bg.secondary a {color: #fff;}
+
+.py-1 {padding: 1.5rem, 0;}
+.py-2{padding: 2rem,0;}
+.py-3 {padding: 3.5, 0rem;}
+.p-1 {padding: 1.5rem, 0;}
+.p-2 {padding: 2rem, 0;}
+.p-3 {padding: 3.5, 0rem;}
+
+.list li {
+  padding: 0.3rem 0;
+  border-bottom: 0.1px solid rgb(88, 88, 88);
+  width: 90%;
 }
+.list li a:hover{
+  color: var(--secondary-color) !important;
+}
+.card:hover{
+  background: rgb(250, 228, 232);
+}
+
+#main-nav ul li a.current:hover {
+  background-color: var(--light-color);
+  color: var(--dark-color);
+}
+
+
+.category-health {background: var(--health-color);}
+.category-equipment {background: var(--equipment-color);}
+.category-nutrion {background: var(--nutrion-color);}

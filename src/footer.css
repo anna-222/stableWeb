@@ -1,0 +1,47 @@
+#main-footer{
+    /* margin-top: 6.45rem; */
+    background: var(--dark-color);
+    color: #fff;
+    font-size: 15px;
+    padding: 1rem 0;
+    
+}
+#main-footer-about{
+    margin-top: 6.45rem;
+    background: var(--dark-color);
+    color: #fff;
+    font-size: 15px;
+    padding: 1rem 0;
+    
+}
+
+
+#main-footer img {
+    width: 140px;
+}
+
+#main-footer a {
+    color:#fff
+}
+
+#main-footer .footer-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap:1rem;
+}
+
+#main-footer .footer-container > :last-child{
+    grid-column:1/ span 4;
+    padding: 0.5rem;
+    text-align: center;
+    font-size: 0.75rem;
+}
+
+#main-footer .footer-container input[type='email']{
+    width: 90%;
+    padding: 0.4rem;
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+

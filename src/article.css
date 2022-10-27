@@ -1,0 +1,65 @@
+.card {
+    background: #f8f6f6;
+    padding: 1rem;
+}
+
+.card-free{
+    background: #f8f6f6;
+    padding: 1rem;
+}
+
+.list li {
+    padding: 0.3rem 0;
+    border-bottom: 0.1px solid rgb(88, 88, 88);
+    width: 90%;
+}
+.list li a:hover{
+    color: var(--secondary-color) !important;
+}
+
+.card:hover{
+    background: rgb(250, 228, 232);
+}
+
+#home-articles .articles-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1rem;
+    
+}
+#home-articles .articles-container > *:first-child{
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+grid-gap:1rem;
+align-items: center;
+grid-column: 1/ span 2;
+} 
+
+#home-articles .articles-container > *:last-child{
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+grid-gap:1rem;
+align-items: center;
+justify-content: center;
+grid-column: 2 / span 2;
+}
+
+#article .meta{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgb(198, 194, 194);
+    padding: 0.2rem;
+    margin: 0.5rem 0;
+
+}
+
+/* #article .meta .category {
+    margin-top: 0.4rem;
+} */
+.bg-secondary {
+    background: var(--secondary-color);
+    color: white;
+}
+
+.category-health {background: var(--health-color);}

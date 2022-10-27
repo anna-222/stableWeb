@@ -1,0 +1,34 @@
+#showcase {
+    color: #fff;
+    background: #333;
+    padding: 2rem;
+    position: relative;
+    
+}
+
+#showcase:before {
+    
+    content: "";
+    background:url("../public/image/featured.jpeg") no-repeat center center/cover;
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+}
+
+#showcase .showcase-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
+
+#showcase .showcase-content {
+    z-index: 1;
+}
+#showcase .showcase-content p {
+    margin-bottom: 1rem;
+}

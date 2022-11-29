@@ -15,7 +15,7 @@ export default function About() {
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio cumque laboriosam aut? Amet magnam voluptates pariatur nobis totam repellendus, veritatis beatae neque consequatur ex quisquam, optio repudiandae earum voluptatibus natus ea tempore assumenda accusamus is eius voluptatem iste, temporibus modi doloribus. Voluptatem libero laboriosam culpa officia assumenda eum nulla amet excepturi omnis magni architecto quisquam eveniet incidunt, esse ex totam, molestiae cupiditate, veniam iure impedit asperiores earum! Quam quis nesciunt commodi quae, ipsam reiciendis quisquam omnis unde quidem explicabo possimus odit, mollitia rerum debitis laborum autem quas eius id 
                     </p>
                 </article>
-                <aside className="card-free bg-primary aside">
+                <aside className="card-free bg-secondary">
                     <h3>Join to us</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, inventore iste molestiae atque modi nostrum.</p>
                     <input type="submit" className="btn btn-dark"/>

@@ -9,7 +9,7 @@
 #showcase:before {
     
     content: "";
-    background:url("../public/image/featured.jpeg") no-repeat center center/cover;
+    background:url("../public/image/img-main.jpg") no-repeat center center/cover;
     position: absolute;
     top:0;
     left:0;

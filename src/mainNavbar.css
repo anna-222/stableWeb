@@ -27,11 +27,13 @@
 #main-nav .container {
     display: grid;
     grid-template-columns: 6fr 3fr 2fr;
-    padding: 1rem;
+    padding: 0.5rem;
     align-items: center;
 }
 #main-nav .logo {
-    width: 180px;
+    width: 8rem;
+    height: 5rem;
+    color: #333;
 }
 
 #main-nav ul{
@@ -78,6 +80,10 @@ a {
     margin-right: .5rem;
     padding: 0.2rem;
 }
+#main-nav .social i:hover{
+    color: var(--secondary-color);
+    
+}
 .container {
     max-width: var(--max-width);
     margin: auto;
@@ -85,5 +91,10 @@ a {
     overflow: hidden;
     
 }
+
+
+
+
+
 
 

@@ -35,12 +35,10 @@ grid-column: 2 / span 2;
     margin-top: 0.4rem;
 }
 
-.bg-primary {
+/* .bg-primary {
     background: var(--primary-color);
     color: white;
-  }
-
-.bg-dark {
-    background: #333;
-    color: white;
-  }
+  } */
+.bg-dark{
+    background: var(--dark-color);;
+}

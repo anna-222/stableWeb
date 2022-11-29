@@ -1,10 +1,11 @@
 import { Link } from "react-router-dom"
 import "../src/homeArticles.css"
+import "../src/App.css"
 export default function HomeArticles() {
     return(
         <section id="home-articles" className="py-2">
             <div className="container">
-                <h2>Edytor Picks</h2>
+                
                 <div className="articles-container">
                     {/* <!-- grid container/item --> */}
                     <article className="card">
@@ -50,7 +51,7 @@ export default function HomeArticles() {
                             </h3>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat hic vero vel ipsam rerum. Quisquam quia labore laborum autem. Aliquid?</p>
                     </article>
-                    <article className="card bg-primary">
+                    <article className="card bg-secondary">
                         <div className="category category-nutrion">Nutrion</div>
                         <h3>
                             <a href="article.html"> Horse nutrion- oat </a>

@@ -54,11 +54,13 @@ grid-column: 2 / span 2;
 
 }
 
-/* #article .meta .category {
-    margin-top: 0.4rem;
-} */
 .bg-secondary {
     background: var(--secondary-color);
+    color: white;
+}
+
+.bg-dark {
+    background: #333;
     color: white;
 }
 

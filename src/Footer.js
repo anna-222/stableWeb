@@ -5,9 +5,9 @@ export default function Footer() {
     return(
         <footer id="main-footer">
             <div className="container footer-container">
-                <div>
-                    <img src="image/logo.png" alt=""/>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores consequatur, esse nihil, vero, mollitia officia dolore cupiditate !</p>
+                <div className="imageDiv">
+                    <img src="image/logo-kon.png" alt=""/>
+                    
                 </div>
                 <div>
                     <h3>Email Newsletter</h3>

@@ -1,3 +1,4 @@
+import { NavLink } from "react-router-dom";
 import "../showcase.css";
 
 export default function Showcase() {
@@ -14,9 +15,9 @@ export default function Showcase() {
               esse, veritatis praesentium quod eius, quos aliquid numquam
               aperiam officiis laboriosam quia.
             </p>
-            <a href="allArticles.html" className="btn btn-primary">
+            <NavLink to="/allArticles" className="btn btn-primary">
               Read more
-            </a>
+            </NavLink>
           </div>
         </div>
       </div>

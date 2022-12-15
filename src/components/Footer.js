@@ -1,7 +1,7 @@
 import "../footer.css";
 export default function Footer() {
   return (
-    <footer id="main-footer">
+    <footer id="main-footer" className="bg-gray-800">
       <div className="container footer-container">
         <div className="imageDiv">
           <img src="image/logo-kon.png" alt="" />

@@ -1,6 +1,4 @@
-#main-footer{
-    /* margin-top: 6.45rem; */
-    background: var(--dark-color);
+#main-footer {
     color: #fff;
     font-size: 15px;
     padding: 1rem 0;
@@ -8,7 +6,6 @@
 }
 #main-footer-about{
     margin-top: 6.45rem;
-    background: var(--dark-color);
     color: #fff;
     font-size: 15px;
     padding: 1rem 0;

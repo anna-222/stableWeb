@@ -1,6 +1,6 @@
 import { useState } from "react";
 import Posts from "../components/Posts";
-import MainNavbar from "../components/MainNavbar";
+import MainNavbarTW from "../components/MainNavbarTW";
 import "../homeArticles.css";
 import "../allArticles.css";
 import useSWR from "swr";
@@ -41,7 +41,7 @@ export default function AllArticles() {
 
   return (
     <>
-      <MainNavbar />
+      <MainNavbarTW />
       <section id="home-articles" className="py-2">
         <div className="container">
           <div className="articles-container2">

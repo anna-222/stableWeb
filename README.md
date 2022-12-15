@@ -1,9 +1,10 @@
 "stableWeb" is a project created with the React.js library.
 The site also uses the libraries : 
-React Router for routing in React. It enables the navigation among views of various components in a React Application, allows changing the browser URL
- and SWR library for data fetching
 
-To stylize elements is used Css and Tailwind CSS framework 
+- React Router for routing 
+- SWR library for data fetching
+
+To stylize elements is used CSS and Tailwind CSS framework 
 
 
 # Getting Started with Create React App

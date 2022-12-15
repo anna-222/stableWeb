@@ -1,7 +1,7 @@
 import { useParams } from "react-router-dom";
 import "../article.css";
 import useSWR from "swr";
-import MainNavbar from "../components/MainNavbar";
+import MainNavbarTW from "../components/MainNavbarTW";
 
 export default function Article() {
   let { id } = useParams();
@@ -31,7 +31,7 @@ export default function Article() {
 
   return (
     <>
-      <MainNavbar />
+      <MainNavbarTW />
       <section id="article">
         <div className="container">
           <div className="page-container">

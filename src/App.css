@@ -150,13 +150,13 @@ h1,h2,h3,h4,h5,h6 {
   width: 90%;
 }
 .list li a:hover{
-  color: var(--secondary-color) !important;
+  color: var(--secondary-color) ;
 }
 .card:hover{
   background: rgb(250, 228, 232);
 }
 
-#main-nav ul li a.current:hover {
+ul li a.current:hover {
   background-color: var(--light-color);
   color: var(--dark-color);
 }

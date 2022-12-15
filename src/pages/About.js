@@ -1,10 +1,10 @@
 import "../about.css";
-import MainNavbar from "../components/MainNavbar";
+import MainNavbarTW from "../components/MainNavbarTW";
 
 export default function About() {
   return (
     <>
-      <MainNavbar />
+      <MainNavbarTW />
       <section id="about">
         <div className="container">
           <div className="page-container">

@@ -1,0 +1,29 @@
+.social {
+    justify-self: center;
+}
+
+.social a i{
+
+    color: rgba(245, 245, 245, 0.383); 
+    margin-right: .25rem;
+    padding: 0.25rem;
+}
+.social i:hover{
+    color: var(--secondary-color);
+    
+}
+
+
+@media (max-width: 500px){
+    .social {
+        display: none;
+        padding: 10px;
+        margin: 2px;
+    }
+}
+
+
+
+
+
+

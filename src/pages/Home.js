@@ -1,13 +1,15 @@
 import Footer from "../components/Footer";
 import HomeArticles from "../components/HomeArticles";
-import MainNavbar from "../components/MainNavbar";
+
 import Showcase from "../components/Showcase";
 // import useSWR from 'swr'
+import "../home.css";
+import MainNavbarTW from "../components/MainNavbarTW";
 
 export default function Home() {
   return (
     <div id="home">
-      <MainNavbar />
+      <MainNavbarTW />
       <Showcase />
       <HomeArticles />
       <Footer />

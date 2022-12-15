@@ -1,9 +1,10 @@
 import "../mainNavbar.css";
 import "../../node_modules/font-awesome/css/font-awesome.min.css";
 import { Link, NavLink } from "react-router-dom";
-// import { Route, Routes } from 'react-router-dom';
 
 export default function MainNavbar() {
+  let width = window.innerWidth;
+
   return (
     <nav id="main-nav">
       <div className="container">
